@@ -34,7 +34,7 @@ new TimedDogXWorker.Builder(this)
       .listener(new TimedDogXWorker.OnTimeOutListener() {
       @Override
       public void onTimeOut(boolean isForeground) {
-
+          //Start the LOGIN ACTIVITY here.
        }
      }).build();
 ```
