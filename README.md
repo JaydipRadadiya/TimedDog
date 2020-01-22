@@ -3,7 +3,7 @@ An Android library which help time out app running on either background or foreg
 created to solve the issues of an app not timing out after a specified time. I have come across 
 many solutions on both Github and Stackoverflow but none of them work as expected due to the new constraints on
 background processes in Android API 26. This library was built on   `WorkManager`, hence it would work on both apps 
-targeting latest Android SDKs(Android 29 as at the time of this release) down to Android API 16.
+targeting latest Android SDKs down to Android API 16.
 
 ### Sample
 
