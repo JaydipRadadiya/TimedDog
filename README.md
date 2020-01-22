@@ -27,17 +27,16 @@ class BaseActivity extends TimeoutActivity{
 }
 ```
 
-##### Finally, start `TimedDog` in your main activity's method. Typically, this is usually the 
-##### splash activity.
+##### Finally, start `TimedDog` in your main activity's method. Typically, this is usually the splash activity.
 ```java
 new TimedDogXWorker.Builder(this)
-                .seconds(10)
-                .listener(new TimedDogXWorker.OnTimeOutListener() {
-            @Override
-            public void onTimeOut(boolean isForeground) {
+      .seconds(10)
+      .listener(new TimedDogXWorker.OnTimeOutListener() {
+      @Override
+      public void onTimeOut(boolean isForeground) {
 
-            }
-        }).build();
+      }
+     }).build();
 ```
 
 #### How To Install
