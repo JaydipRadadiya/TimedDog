@@ -7,8 +7,7 @@ targeting latest Android devices(Android 10 as at the time of version release) d
 
 ### Sample
 
-##### Modify your application class or create one if it does not exist and initialize `TimedDog`
-##### in your onCreate() method.
+##### Modify your application class or create one if it does not exist and initialize `TimedDog` in your onCreate() method.
 
 ```java
 class MyApp extends Application{
