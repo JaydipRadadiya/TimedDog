@@ -35,7 +35,7 @@ new TimedDogXWorker.Builder(this)
       @Override
       public void onTimeOut(boolean isForeground) {
 
-      }
+       }
      }).build();
 ```
 
