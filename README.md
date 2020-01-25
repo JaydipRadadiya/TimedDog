@@ -5,6 +5,7 @@ many solutions on both Github and Stackoverflow but none of them work as expecte
 background processes in Android API 26. This library was built on   `WorkManager`, hence it would work on both apps 
 targeting latest Android SDKs down to Android API 16.
 
+
 ### Sample
 
 ##### Modify your application class or create one if it does not exist and initialize `TimedDog` in your onCreate() method.
