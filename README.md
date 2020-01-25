@@ -1,9 +1,9 @@
 ## TimedDog
-An Android library which help time out app running in both background and foreground. TimedDog was 
+An Android library which help time out app running on either background or foreground. TimedDog was 
 created to solve the issues of an app not timing out after a specified time. I have come across 
-many solutions online on both Github and Stackoverflow but none of them work as expected due to the 
-changes in Android 8+. This library was built on   `WorkManager`, hence it would work on both apps 
-targeting latest Android devices(Android 10 as at the time of version release) down to Android 16.
+many solutions on both Github and Stackoverflow but none of them work as expected due to the new constraints on
+background processes in Android API 26. This library was built on   `WorkManager`, hence it would work on both apps 
+targeting latest Android SDKs down to Android API 16.
 
 ### Sample
 
