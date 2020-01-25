@@ -27,7 +27,7 @@ class BaseActivity extends TimeoutActivity{
     //...
 }
 ```
-**Suggestion:** Extends this activity on pages that can only be accessed after login.
+**Suggestion:** Extend this activity on pages that can only be accessed after login.
 
 ##### Finally, start `TimedDog` in your main activity's method. Typically, this is usually the splash activity.
 ```java
